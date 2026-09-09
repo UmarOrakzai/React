@@ -14,7 +14,7 @@ function Github() {
    }, [])
   return (
     <div className='flex flex-col items-center justify-center mt-10 w-1/2 mx-auto gap-5'>
-        <img src={data.avatar_url} alt="GitHub Avatar" />
+        <img className='withd-200' src={data.avatar_url} alt="GitHub Avatar" />
         <h1>GitHub Name : {data.name}</h1>   
       <h1>GitHub Followers : {data.followers}</h1>
     </div>
