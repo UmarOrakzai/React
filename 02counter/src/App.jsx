@@ -12,7 +12,6 @@ function App() {
  function RemoveValue(){
   setCounterVallue(counterValue - 1)
 
-  
  }
 
 
@@ -23,7 +22,7 @@ function App() {
     <h1>Hello World</h1>
 
     <h2>counter value {counterValue}</h2> 
-    <button onClick={addvalue} >Add Value {counterValue}</button>
+    <button  className={`bg-${color}-500 hover:bg-${color}-600 text-white px-4 py-2 rounded-lg font-medium`} onClick={addvalue} >Add Value {counterValue}</button>
     <button onClick={RemoveValue} >Remove value {counterValue}</button>
     </>
     

@@ -2,11 +2,11 @@ import { useState } from 'react'
 
 function App() {
 
-  const [color, setColor] = useState('orange')
+  const [colors, setColor] = useState('olvia')
   
   return (
     <div className="w-full h-screen duration-200"
-    style={{backgroundColor: color}}>
+    style={{backgroundColor: colors}}>
       <div className="fixed flex flex-wrap justify-center bottom-12 inset-x-0 px-2">
         <div className="flex flex-wrap justify-center bg-white gap-2 shadow-lg px-3 
         py-2 rounded-3xl "><button onClick={()=> setColor("red")}
