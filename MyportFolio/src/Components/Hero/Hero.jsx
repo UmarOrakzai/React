@@ -41,7 +41,7 @@ export default function Hero() {
           <a href="/projects" className="w-full sm:w-auto bg-white text-black px-7 py-3.5 rounded-full text-sm font-medium hover:bg-zinc-100 transition text-center">
             View Projects
           </a>
-          <a href="#contact" className="w-full sm:w-auto border border-zinc-800 px-7 py-3.5 rounded-full text-sm font-medium hover:bg-zinc-900 transition text-center">
+          <a href="/contact" className="w-full sm:w-auto border border-zinc-800 px-7 py-3.5 rounded-full text-sm font-medium hover:bg-zinc-900 transition text-center">
             Contact Me
           </a>
         </motion.div>
