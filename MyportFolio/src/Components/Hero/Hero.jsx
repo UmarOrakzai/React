@@ -67,7 +67,7 @@ export default function Hero() {
             transition={{ delay: 1, duration: 0.5 }}
             className="absolute bottom-2 right-2 sm:bottom-4 sm:right-4 bg-white text-black text-[10px] sm:text-xs font-medium px-3 sm:px-4 py-1.5 sm:py-2 rounded-full shadow-xl"
           >
-            Hangu • Pakistan
+            KPK • Pakistan
           </motion.div>
         </div>
       </motion.div>
