@@ -7,7 +7,7 @@ export default function Footer() {
       </p>
       
       <button className="mt-8 bg-black text-white px-10 py-4 rounded-full font-bold text-lg hover:bg-gray-800 transition">
-        umar.dev@gmail.com
+        umarorakzai315@gmail.com
       </button>
 
       <div className="mt-16 pt-8 border-t text-gray-500">
