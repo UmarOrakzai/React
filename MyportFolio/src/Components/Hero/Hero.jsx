@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion'
+import { NavLink } from "react-router-dom";
 
 export default function Hero() {
   return (
@@ -38,12 +39,14 @@ export default function Hero() {
           transition={{ delay: 0.5, duration: 0.6 }}
           className="mt-8 md:mt-9 flex flex-col sm:flex-row items-center justify-center md:justify-start gap-3 sm:gap-4"
         >
-          <a href="/projects" className="w-full sm:w-auto bg-white text-black px-7 py-3.5 rounded-full text-sm font-medium hover:bg-zinc-100 transition text-center">
-            View Projects
-          </a>
-          <a href="/contact" className="w-full sm:w-auto border border-zinc-800 px-7 py-3.5 rounded-full text-sm font-medium hover:bg-zinc-900 transition text-center">
-            Contact Me
-          </a>
+          <NavLink to="Projects" className="w-full sm:w-auto bg-white text-black px-7 py-3.5 rounded-full text-sm font-medium hover:bg-zinc-100 transition text-center">
+              View Projects
+          </NavLink>
+         
+          <NavLink to="Contact" className="w-full sm:w-auto border border-zinc-800 px-7 py-3.5 rounded-full text-sm font-medium hover:bg-zinc-900 transition text-center">
+             Contact Me
+          </NavLink >
+         
         </motion.div>
       </motion.div>
 
